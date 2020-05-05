@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;500;400;600;700;800&display=swap');
+
+
+
+ body{
+    background-image: url(images/design3.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+
+ ul {
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+font-size: 14px;
+    list-style: none;
+    text-align: right;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+  ul li
+  {
+  color:  hsl(230, 29%, 20%);
+  display: inline-block;
+  width: 90px;
+  height: 20px;
+  margin-left: 1px;
+     }
+ul li a  {
+text-decoration: none;
+color: hsl(230, 29%, 20%) ;
+
+}
+
+
+
+
+.left{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.right{width: 50%;
+ height: 100%;
+right: 0px;
+ position: absolute;
+  
+}
+.main-text{width: 450px;
+  height: 100%;
+margin: 100px;
+font-family: 'Barlow Condensed', sans-serif;
+padding-top: 70px;
+}
+.Project{
+  width: 240px;
+  height: 50px;
+  padding-bottom: 50px;
+}
+.logo{margin: 10px;
+  left: 100px;
+padding-top: 20px;
+  float: left;
+  position: absolute;
+ 
+ }
+
+.w{height: 50px;
+  padding-top: 20px;
+
+  
+}
+span{
+  background-color: hsl(230, 29%, 20%);
+  color: white;
+  border-radius: 15px;
+  padding: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin: 5px;
+}
+.main-img{
+  margin-top: 10px;
+  padding-top: 90px;
+
+}
+.btn{
+  color: white;
+  background-color: hsl(0, 100%, 68%);
+  padding: 16px;
+  border-radius: 8px;
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  margin-right: 10px;
+}
+.btn:hover{background-color: hsl(0, 100%, 68% , 0.6);   
+
+}
+.login{color:hsl(231, 7%, 65%);}
+.Login:hover{
+color: hsl(231, 7%, 65%);
+border-bottom: 2px solid hsl(231, 7%, 65%);
+  }
+.product:hover{
+color:hsl(230, 29%, 20%);
+border-bottom: 2px solid hsl(230, 29%, 20%);
+}
